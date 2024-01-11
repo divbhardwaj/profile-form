@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <title>Profile Form</title>
+  <style>
+    .image{
+      width:100%;
+      height:30vh;
+      padding-top:10px;
+    }
+  </style>
+
+</head>
+<body>
+  <div style="border:2px solid black; margin: 20px;">
+
+    <header style="background-color: black; display: flex; padding: 15px; justify-content: space-between;">
+      <div style="color: aliceblue" >Edit Profile</div>
+      <div style="color: aliceblue; margin-right: 10px;">X</div>
+    </header>
+    
+    <div class="image">
+      <i class="fa-regular fa-image" style="font-size:50px; margin-left:600px; margin-top:30px;" ></i>
+      <h2 style="text-align: center; margin-top: 40px;">Upload Profile picture</h2>
+    
+    </div>
+    
+    <form>
+  <div style="display:flex;  justify-content:center; align-items: center; flex-direction: column; height: fit-content;">
+    <div style="display:flex; justify-content: space-between; width: 68%; ">
+        <div>
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname" placeholder="enter your name" style="width: 420px"><br>
+        </div>
+
+        <div>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname" placeholder="enter your surname" style="width: 420px"><br><br>
+        </div>
+    </div>
+    <div style="display:flex; justify-content: space-between; width: 68%;">
+      <div>
+        <label for="Profession">Profession</label><br>
+        <select id="Profession" name="Profession" style="width: 430px;">
+          <option value="" disabled selected="Eg:exterior design"></option>
+          <option value="Adobe Photoshop">Adobe Photoshop</option>
+          <option value="Adobe Illustrator">Adobe Illustrator</option>
+          <option value="Adobe Indesign">Adobe Indesign</option>
+          <option value="Adobe Premier pro">Adobe Premier pro</option>
+        </select>
+      </div>
+
+      <div>
+        <label for="Seniority">Seniority</label><br>
+        <select id="Seniority" name="Seniority" style="width: 430px;">
+          <option value="" disabled selected="Mid level" style="width: 350px;"></option>
+          <option value="Junior">Junior</option>
+          <option value="Senior">SenSeniorityior</option>
+          <option value="Director">Director</option>
+        </select><br><br>
+      </div>
+  </div>
+
+
+
+  <!-- <div style="display: flex; justify-content: space-between;">`
+    <div style="margin-left: 300px; width: 550px;">
+    <label for="Profession">Profession</label><br>
+    <select id="Profession" name="Profession">
+    <option value="" disabled selected="Eg:exterior design"></option>
+      <option value="Adobe Photoshop">Adobe Photoshop</option>
+      <option value="Adobe Illustrator">Adobe Illustrator</option>
+      <option value="Adobe Indesign">Adobe Indesign</option>
+      <option value="Adobe Premier pro">Adobe Premier pro</option>
+    </select><br>
+    </div> -->
+
+    <!-- <div style="margin-right: 300px; width: 450px;">
+    <label for="Seniority"></label><br>
+    <select id="Seniority" name="Seniority" placeholder="Mid level">
+      <option value="" disabled selected="Mid level" style="width: 350px;"></option>
+      <option value="Junior">Junior</option>
+      <option value="Senior">SenSeniorityior</option>
+      <option value="Director">Director</option>
+    </select><br><br>
+    </div> -->
+  <!-- </div> -->
+
+
+    <div style="margin-left: 5px;" >
+    <label for="fname">Headline</label><br>
+    <input type="text" id="fname" name="fname" placeholder="Eg:Experienced Exterior Designer with a Profession of" style="width:870px"><br>
+    </div><br>
+
+
+  <div style="display:flex; justify-content: space-between; width: 68%;">
+    <div style="width: 35%;">
+      <label for="Country">Country</label><br>
+      <select id="Country" name="Country" style="width: 100%;">
+        <option value="" disabled selected=""></option>
+        <option value="United Kingdom">United Kingdom</option>
+        <option value="Canada">Canada</option>
+        <option value="India">India</option>
+      </select><br>
+    </div>
+
+    <div style="width: 30%;">
+      <label for="Country">Country</label><br>
+      <select id="Country" name="Country" style="width: 100%;">
+        <option value="" disabled selected=""></option>
+        <option value="India">India</option>
+        <option value="Pakistan">Pakistan</option>
+        <option value="Dubai">Dubai</option>
+      </select><br>
+    </div>
+
+    <div style="width: 30%;">
+      <label for="Town">Town</label><br>
+      <select id="Town" name="Town" style="width: 100%;">
+        <option value="" disabled selected=""></option>
+        <option value="Jaipur">Jaipur</option>
+        <option value="Alwar">Alwar</option>
+        <option value="Bharatpur">Bharatpur</option>
+      </select><br><br>
+    </div>
+  </div>
+
+  <div style="margin-left: 300px; width: 550px; height: 100px;margin-right: 630px;display:flexbox;">
+  <label for="Preferred Type Of Work">Preferred Type Of Work</label><br>
+  <select id="Preferred Type Of Work" name="Preferred Type Of Work" style="width: 160%;">
+    <option value="" disabled selected=""></option>
+    <option value="Permanent">Permanent</option>
+    <option value="Internship">Internship</option>
+    <option value="Contact">Contact</option>
+    <option value="Full time">Full time</option>
+    <option value="Part time">Part time</option>
+  </select><br>
+  </div>
+
+
+    <div style="margin-left: 750px; height: 50px; border: 5px;">
+      <button style="height: 30px;">Delete</button>
+      <button style="height: 30px;background-color: grey;color: antiquewhite;border: hidden;">Save</button>
+    </div>
+    </form>
+  </div>
+</div>
+
+</body>
+</html>
