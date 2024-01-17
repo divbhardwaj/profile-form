@@ -6,46 +6,124 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
   <title>Profile Form</title>
-  <style>
+  <link rel="stylesheet" href="style.css">
+  <!-- <style>
     .image{
       width:100%;
       height:30vh;
       padding-top:10px;
     }
-  </style>
+
+   body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+.profile-form-container {
+  border: 2px solid black;
+  margin: 20px;
+}
+
+  header {
+  background-color: black;
+  display: flex;
+  padding: 15px;
+  justify-content: space-between;
+} 
+
+.edit-profile-header,
+.close-button {
+  color: aliceblue;
+} 
+
+.image-section {
+  width: 100%;
+  height: 30vh;
+  padding-top: 10px;
+  text-align: center;
+} 
+
+.fa-image {
+  font-size: 50px;
+  margin-top: 30px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+} 
+
+General style for form elements */
+label,
+input,
+select {
+  margin-bottom: 10px;
+} 
+
+@media screen and (min-width: 768px) {
+  form {
+    width: 68%;
+  }
+
+  .image-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  form {
+    width: 50%;
+  }
+} 
+
+ @media screen and (min-width: 480px) (max-width: 1200px){
+  body form {
+
+  }
+} 
+
+ @media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (min-device-width : 768px)
+  </style> -->
 
 </head>
 <body>
-  <div style="border:2px solid black; margin: 20px;">
+  <div class="pp">
 
-    <header style="background-color: black; display: flex; padding: 15px; justify-content: space-between;">
-      <div style="color: aliceblue" >Edit Profile</div>
-      <div style="color: aliceblue; margin-right: 10px;">X</div>
+    <header id="ppp">
+      <div id="mm">Edit Profile</div>
+      <div id="nn">X</div>
     </header>
     
-    <div class="image">
-      <i class="fa-regular fa-image" style="font-size:50px; margin-left:600px; margin-top:30px;" ></i>
+    <div class="image" style="text-align: center;">
+      <!-- <i class="fa-regular fa-image" style="font-size:50px; margin-left:600px; margin-top:30px;" ></i> -->
+      <i class="fa-regular fa-image" style="font-size:50px; " ></i>
+
       <h2 style="text-align: center; margin-top: 40px;">Upload Profile picture</h2>
     
     </div>
     
     <form>
-  <div style="display:flex;  justify-content:center; align-items: center; flex-direction: column; height: fit-content;">
-    <div style="display:flex; justify-content: space-between; width: 68%; ">
+  <div class="aa">
+    <div class="bb">
         <div>
         <label for="fname">First name:</label><br>
-        <input type="text" id="fname" name="fname" placeholder="enter your name" style="width: 420px"><br>
+        <input type="text" id="fname" name="fname" placeholder="enter your name" ><br>
         </div>
 
         <div>
         <label for="lname">Last name:</label><br>
-        <input type="text" id="lname" name="lname" placeholder="enter your surname" style="width: 420px"><br><br>
+        <input type="text" id="lname" name="lname" placeholder="enter your surname"><br><br>
         </div>
     </div>
-    <div style="display:flex; justify-content: space-between; width: 68%;">
+    <div class="bb">
       <div>
         <label for="Profession">Profession</label><br>
-        <select id="Profession" name="Profession" style="width: 430px;">
+        <select id="Profession" name="Profession">
           <option value="" disabled selected="Eg:exterior design"></option>
           <option value="Adobe Photoshop">Adobe Photoshop</option>
           <option value="Adobe Illustrator">Adobe Illustrator</option>
@@ -56,7 +134,7 @@
 
       <div>
         <label for="Seniority">Seniority</label><br>
-        <select id="Seniority" name="Seniority" style="width: 430px;">
+        <select id="Seniority" name="Seniority">
           <option value="" disabled selected="Mid level" style="width: 350px;"></option>
           <option value="Junior">Junior</option>
           <option value="Senior">SenSeniorityior</option>
@@ -66,38 +144,13 @@
   </div>
 
 
-
-  <!-- <div style="display: flex; justify-content: space-between;">`
-    <div style="margin-left: 300px; width: 550px;">
-    <label for="Profession">Profession</label><br>
-    <select id="Profession" name="Profession">
-    <option value="" disabled selected="Eg:exterior design"></option>
-      <option value="Adobe Photoshop">Adobe Photoshop</option>
-      <option value="Adobe Illustrator">Adobe Illustrator</option>
-      <option value="Adobe Indesign">Adobe Indesign</option>
-      <option value="Adobe Premier pro">Adobe Premier pro</option>
-    </select><br>
-    </div> -->
-
-    <!-- <div style="margin-right: 300px; width: 450px;">
-    <label for="Seniority"></label><br>
-    <select id="Seniority" name="Seniority" placeholder="Mid level">
-      <option value="" disabled selected="Mid level" style="width: 350px;"></option>
-      <option value="Junior">Junior</option>
-      <option value="Senior">SenSeniorityior</option>
-      <option value="Director">Director</option>
-    </select><br><br>
-    </div> -->
-  <!-- </div> -->
-
-
-    <div style="margin-left: 5px;" >
+    <div class="cc">
     <label for="fname">Headline</label><br>
-    <input type="text" id="fname" name="fname" placeholder="Eg:Experienced Exterior Designer with a Profession of" style="width:870px"><br>
+    <input  type="text" id="fname" name="fname" placeholder="Eg:Experienced Exterior Designer with a Profession of" style="width: 100%;" ><br>
     </div><br>
 
 
-  <div style="display:flex; justify-content: space-between; width: 68%;">
+  <div class="dd">
     <div style="width: 35%;">
       <label for="Country">Country</label><br>
       <select id="Country" name="Country" style="width: 100%;">
@@ -129,7 +182,7 @@
     </div>
   </div>
 
-  <div style="margin-left: 300px; width: 550px; height: 100px;margin-right: 630px;display:flexbox;">
+  <div class="ee">
   <label for="Preferred Type Of Work">Preferred Type Of Work</label><br>
   <select id="Preferred Type Of Work" name="Preferred Type Of Work" style="width: 160%;">
     <option value="" disabled selected=""></option>
@@ -142,7 +195,7 @@
   </div>
 
 
-    <div style="margin-left: 750px; height: 50px; border: 5px;">
+    <div class="ff">
       <button style="height: 30px;">Delete</button>
       <button style="height: 30px;background-color: grey;color: antiquewhite;border: hidden;">Save</button>
     </div>

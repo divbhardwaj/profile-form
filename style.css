@@ -1,0 +1,365 @@
+.image{
+    width:100%;
+    height:30vh;
+    padding-top:10px;
+  }
+
+  /* body {
+margin: 0;
+padding: 0;
+font-family: 'Arial', sans-serif;
+}
+
+.profile-form-container {
+border: 2px solid black;
+margin: 20px;
+} */
+
+/* header {
+background-color: black;
+display: flex;
+padding: 15px;
+justify-content: space-between;
+} */
+
+/* .edit-profile-header,
+.close-button {
+color: aliceblue;
+} */
+
+/* .image-section {
+width: 100%;
+height: 30vh;
+padding-top: 10px;
+text-align: center;
+} */
+
+/* .fa-image {
+font-size: 50px;
+margin-top: 30px;
+} */
+
+/* form {
+display: flex;
+flex-direction: column;
+align-items: center;
+} */
+
+/* General style for form elements */
+/* label,
+input,
+select {
+margin-bottom: 10px;
+} */
+
+/* @media screen and (min-width: 768px) {
+form {
+  width: 68%;
+}
+
+.image-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
+}
+}
+
+@media screen and (min-width: 1200px) {
+form {
+  width: 50%;
+}
+} */
+
+/* @media screen and (min-width: 480px) (max-width: 1200px){
+body form {
+
+}
+} */
+
+/* @media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (min-device-width : 768px)  */
+
+/* #parent1{
+    border:2px solid black; 
+    margin: 20px;
+}
+
+#parent2{
+    display:flex;  
+    justify-content:center; 
+    align-items: center; flex-direction: column; 
+    height: fit-content;
+}
+
+#parent3{
+    display:flex; 
+    justify-content: space-between; 
+    width: 68%;
+}
+
+#parent4{
+    margin-left: 5px;
+}
+
+#parent5{
+    display:flex;
+    justify-content: 
+    space-between; 
+    width: 68%;
+}
+
+#parent6{
+    width: 30%;
+}
+
+#parent7{
+    width: 30%;
+}
+
+#parent8{
+    margin-left: 300px; 
+    width: 550px;
+    height: 100px;
+    margin-right: 630px;
+    display:flexbox;
+}
+
+#parent9{
+    margin-left: 750px; 
+    height: 50px; 
+    border: 5px;
+} */
+#Profession{
+    width: 100%;
+}
+#Seniority{
+    width: 100%;
+
+}
+
+#fname{
+    width: 100%;
+}
+
+#lname{
+    width: 100%;
+}
+
+.pp{
+    border:2px solid black; 
+    margin: 20px;
+}
+
+#ppp{
+    background-color: black; 
+    display: flex; 
+    padding: 15px; 
+    justify-content: space-between;
+}
+
+#mm{color: aliceblue}
+
+#nn{
+    color: aliceblue; 
+    margin-right: 10px;
+}
+
+.aa{
+    display:flex;  
+    justify-content:center; 
+    align-items: center; 
+    flex-direction: column; 
+    height: fit-content;
+}
+
+.bb{
+    display:flex; 
+    justify-content: space-between; 
+    width: 68%;
+}
+
+.cc{
+    width: 68%;   
+}
+
+.dd{
+    display:flex; 
+    justify-content: space-between; 
+    width: 68%;
+}
+
+.ee{
+    margin-left: 300px; 
+    width: 550px; 
+    height: 100px;
+    margin-right: 630px;
+    display:flexbox;
+}
+
+.ff{
+    margin-left: 750px; 
+    height: 50px; 
+    border: 5px;
+}
+
+
+
+/* ----------------Media Queries----------------- */
+
+
+
+/*----------------mobile phones-----------------*/
+
+/* @media only screen and(max-width: 768px) {
+    
+}
+
+
+@media only screen and(max-width: 468px) {
+    
+}
+
+
+/*---------------desktop & laptops-----------------*/
+
+/* @media only screen and(min-width: 1024px){ */
+
+
+
+
+/*----------------tablets & ipads-----------------*/
+
+/* @media only screen and(min-width: 769px) and (max-width: 1023px) { */
+  
+
+
+    /* @media only screen and(max-width: 768px){
+    #oo{
+        width: 10%;
+        background-color: brown;
+    }
+} */
+
+  /* Media queries for responsiveness */
+  /* @media screen and (min-width: 600px) {
+    .bb div {
+      width: 48%;
+    }
+  
+    .dd div {
+      width: 30%;
+    }
+  }
+  
+  @media screen and (min-width: 768px) {
+    .bb div {
+      width: 30%;
+    }
+  } */
+
+
+
+
+
+
+  /* ------->>>>>>Tablet(768px)<<<<<<----------- */
+  
+  @media screen and (max-width: 768px){
+    .bb{
+        display: flex;
+        flex-wrap: wrap;
+    
+    }
+  }
+
+  @media screen and (max-width: 768px){
+    .cc{
+        width: 61%;
+        margin-left: -50px;
+      
+    }
+  }
+
+  @media screen and (max-width: 768px){
+    .ee{
+        width: 38%;
+        margin-left: 420px;
+      
+    }
+  }
+
+  @media screen and (max-width: 768px){
+    .dd{
+        width: 60%;
+        margin-right: 50px;
+      
+    }
+  }
+
+  @media screen and (max-width: 768px){
+    .ff{
+        width: 30%;
+        margin-left: 400px;
+      
+    }
+  }
+
+
+
+
+  /* ------->>>>>>Laptop(1440px)<<<<<<----------- */
+
+  /* @media screen and (min-width: 1440px){
+    .bb{
+        flex-direction: column;
+        width: 40%;
+    }
+  } */
+
+
+
+ /* For Mobile Phones */
+  /* @media screen and (max-width:425px){
+    .bb{
+        background-color: red;
+    }
+    .bbdivinput{
+        /* display: flex;
+        flex-wrap: wrap; */
+        background-color: red;
+        margin-right: 200px;
+
+    }
+  }
+
+  @media screen and (max-width:425px){
+    .cc{
+        width: 61%;
+        margin-left: -50px;
+      
+    }
+  }
+
+  @media screen and (max-width:425px){
+    .ee{
+        width: 38%;
+        margin-left: 500px;
+      
+    }
+  }
+
+  @media screen and (max-width:425px){
+    .dd{
+        width: 60%;
+        margin-right: 0px;
+      
+    }
+  }
+
+  @media screen and (max-width:425px){
+    .ff{
+        width: 30%;
+        margin-left: 200px;
+      
+    }
+  } */

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <title>Profile Form</title>
+    <link rel="stylesheet" href="indexa.css">
+</head>
+<body>
+    <div class="border">
+    <header class="header">
+        <div>Edit Profile</div>
+        <div>X</div>
+      </header>
+
+      <div class="image" style="text-align: center;">
+        <i class="fa-regular fa-image" style="font-size:50px"></i>
+  
+        <h2 style="text-align: center; margin-top: 40px;">Upload Profile picture</h2>
+      </div>
+
+    <form>
+        <div class="container">
+
+            <div class="wrapper">
+                <div class="box">
+                    <label for="fname">First name:</label><br>
+                    <input type="text" id="fname" name="fname" placeholder="enter your name" ><br>
+                </div>
+                <div class="box">
+                    <label for="lname">Last name:</label><br>
+                    <input type="text" id="lname" name="lname" placeholder="enter your surname"><br><br>
+                </div>
+                <div class="box">
+                    <label for="Profession">Profession</label><br>
+                    <select id="Profession" name="Profession">
+                      <option value="" disabled selected="Eg:exterior design"></option>
+                      <option value="Adobe Photoshop">Adobe Photoshop</option>
+                      <option value="Adobe Illustrator">Adobe Illustrator</option>
+                      <option value="Adobe Indesign">Adobe Indesign</option>
+                      <option value="Adobe Premier pro">Adobe Premier pro</option>
+                    </select>
+                </div>
+                <div class="box">
+                    <label for="Seniority">Seniority</label><br>
+                    <select id="Seniority" name="Seniority">
+                      <option value="" disabled selected="Mid level"></option>
+                      <option value="Junior">Junior</option>
+                      <option value="Senior">SenSeniorityior</option>
+                      <option value="Director">Director</option>
+                    </select><br><br>
+                </div>
+            </div>
+
+            <div class="wrapper">
+                <label for="headline">Headline</label><br>
+                <input  type="text" id="headline" name="fname" placeholder="Eg:Experienced Exterior Designer with a Profession of"><br>
+            </div>
+
+            <div class="wrappera">
+                <div class="box">
+                    <label for="Country">Country</label><br>
+                    <select id="Country" name="Country">
+                      <option value="" disabled selected=""></option>
+                      <option value="United Kingdom">United Kingdom</option>
+                      <option value="Canada">Canada</option>
+                      <option value="India">India</option>
+                    </select>
+                </div>
+                <div class="box">
+                    <label for="Country">Country</label><br>
+                    <select id="Country" name="Country">
+                      <option value="" disabled selected=""></option>
+                      <option value="India">India</option>
+                      <option value="Pakistan">Pakistan</option>
+                      <option value="Dubai">Dubai</option>
+                    </select>
+                </div>
+                <div class="box">
+                    <label for="Town">Town</label><br>
+                    <select id="Town" name="Town">
+                      <option value="" disabled selected=""></option>
+                      <option value="Jaipur">Jaipur</option>
+                      <option value="Alwar">Alwar</option>
+                      <option value="Bharatpur">Bharatpur</option>
+                    </select><br><br>
+                </div>
+
+                <div class="wrapper">
+                    <label for="Preferred Type Of Work">Preferred Type Of Work</label><br>
+                    <select id="Preferred Type Of Work" name="Preferred Type Of Work">
+                      <option value="" disabled selected=""></option>
+                      <option value="Permanent">Permanent</option>
+                      <option value="Internship">Internship</option>
+                      <option value="Contact">Contact</option>
+                      <option value="Full time">Full time</option>
+                      <option value="Part time">Part time</option>
+                    </select>
+                </div>
+            </div>
+
+            <div>
+                <button style="height: 30px;">Delete</button>
+                <button style="height: 30px;background-color: grey;color: antiquewhite;border: hidden;">Save</button>
+            </div>
+
+
+    </div>
+    </form>
+
+</body>
+</html>
